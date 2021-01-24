@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    cursor:crosshair;
+    cursor: none;
+}
+
+.container > div {
+    transition: all 0.8s linear;
+    flex: 1 0 2vw;  
+    /* border-radius: 50%; */
+    /* ^accordian mode^ */
+}
+
+.stripe-a{
+    background: rgb(128, 90, 132);
+}
+
+div.stripe-b {
+    background: rgb(81, 137, 128);
+    flex-basis: 0;
+}
+
+
+.stripe-c {
+    background: rgb(145, 128, 75);
+}
+
+
